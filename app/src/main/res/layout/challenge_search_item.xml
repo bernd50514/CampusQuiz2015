@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- From Label -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue_grey_700"
+        android:minHeight="1dp"></RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="65dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="fill_vertical"
+                android:maxWidth="75dp"
+                android:minWidth="75dp"
+                android:text="Kategorie:"
+                android:textColor="@color/grey_700" />
+
+            <TextView
+                android:id="@+id/challenge_search_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_toRightOf="@+id/textView"
+                android:gravity="fill_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="@color/blue_grey_700" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="fill_vertical"
+                android:maxWidth="75dp"
+                android:minWidth="75dp"
+                android:text="Spieler:"
+                android:textColor="@color/grey_700" />
+
+            <TextView
+                android:id="@+id/challenge_item_player"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/textView2"
+                android:layout_toRightOf="@+id/textView2"
+                android:gravity="fill_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="@color/blue_grey_700" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

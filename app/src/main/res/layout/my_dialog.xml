@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="299dip"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="@color/blue_grey_500"
+            android:gravity="center_vertical"
+            android:paddingLeft="20.0dip"
+            android:text="Hinweis"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="left|center"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:textColor="@color/black_text"
+            android:textSize="16dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip">
+
+            <Button
+                android:id="@+id/dialog_sure"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@color/blue_grey_500"
+                android:text="Ja"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+
+            <Button
+                android:id="@+id/dialog_cancle"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/blue_grey_500"
+                android:text="Nein"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

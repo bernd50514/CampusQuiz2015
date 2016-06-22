@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.demo.materialdesignnavdrawer">
+
+    <uses-sdk tools:overrideLibrary="android.support.v13" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_blau_test_final"
+        android:label="@string/app_name"
+        android:theme="@style/BaseTheme.MainTheme">
+
+        <!-- Those are activities for Login and Registration Module -->
+        <activity
+            android:name="campusquizregandlogdesign.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+        <activity
+            android:name="campusquizregandlogdesign.RegisterActivity_WS"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyAppTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="campusquizregandlogdesign.HomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Those are activities for Navigation Drawer Module -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/BaseTheme.MainTheme.WithNavDrawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.OtherActivity"
+            android:label="@string/other_activity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.SlidingTabActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.QuizActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.NewQuizActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.HelpActivity"
+            android:parentActivityName=".activities.MainActivity"></activity>
+        <activity
+            android:name=".activities.ChooseDisciplineActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.OpenGamesActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.SubmitQuestion"
+            android:parentActivityName=".activities.MainActivity"></activity>
+
+        <!-- Test for trainingspiel -->
+        <activity
+            android:name="trainingsspiel.AnalogyExaminationActivityChallenge"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="trainingsspiel.ChallengeQuizActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.OpenGamesActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="trainingsspiel.StartTrainingActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="trainingsspiel.AnalogyExaminationActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="trainingsspiel.MyErrorQuestionActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="trainingsspiel.MyErrorQustionActivityChallenge"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="trainingsspiel.MyErrorQuestionDetailActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.NewGameSearch"
+            android:label="@string/title_activity_new_game_search"
+            android:parentActivityName=".activities.OpenGamesActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.Impressum"
+            android:label="@string/title_activity_impressum"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.MainGameScreen"
+            android:label="@string/title_activity_main_game_screen"
+            android:parentActivityName=".activities.OpenGamesActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.SubChoices_challenge"
+            android:label="@string/title_activity_sub_choices_challenge"
+            android:parentActivityName=".activities.OpenGamesActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+<resources>
+    <!-- Login and Register Modul -->
+    <string name="hint_username">Benutzername</string>
+    <string name="hint_email">Unimail</string>
+    <string name="hint_email_or_usernmae">Unimail/Benutzername</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_confirmpassword">Passwort wiederholen</string>
+    <string name="hint_vorname">Vorname  (optional)</string>
+    <string name="hint_nachname">Nachname (optional)</string>
+    <string name="hint_studiengang">Studiengang</string>
+    <string name="hint_uni">Universität</string>
+    <string name="btn_login">Anmelden</string>
+    <string name="btn_register">Registrieren</string>
+    <string name="btn_link_to_register">Zum ersten Mal hier? Jetzt Registrieren!</string>
+    <string name="btn_link_to_login">Bereits registriert? Jetzt anmelden!</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+
+    <!-- Spinner Design-->
+
+    <string name="spinner_title">Select Category</string>
+
+
+    <!-- Test for navigation drawer  -->
+    <string name="action_setting">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Scores</string>
+    <string name="nav_item_notifications">Submit Questions</string>
+
+
+    <!-- General -->
+    <string name="app_name">CampusQuiz</string>
+    <string name="action_settings">Frage einreichen</string>
+
+    <!-- Toolbar titles -->
+    <string name="toolbar_title_home">Hauptmenü</string>
+    <string name="toolbar_title_profile">Mein Profil</string>
+    <string name="other_activity">Other Activity</string>
+    <string name="optionen">Optionen</string>
+    <string name="toolbar_title_spieluebersicht">Spielübersicht</string>
+
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_item_home">Hauptmenü</string>
+    <string name="nav_drawer_item_profile">Mein Profil</string>
+    <string name="nav_drawer_help_and_feedback">FAQ</string>
+    <string name="nav_drawer_option">Optionen</string>
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="nav_drawer_impressum">Impressum</string>
+    <string name="nav_drawer_ranking">Ranking</string>
+    <string name="nav_drawer_logout">Abmelden</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+    <string name="tag_nav_drawer_special_entry">nav_drawer_special_entry</string>
+
+    <string name="tools_text_account_information_username">Bernd</string>
+    <string name="tools_text_account_information_email">jiahao.liang@stud-mail.uni-wuerzburg.de</string>
+
+    <!-- Typeface names -->
+    <string name="typeface_roboto_regular">Roboto-Regular</string>
+    <string name="typeface_roboto_medium">Roboto-Medium</string>
+
+
+    <!--Test Quiz -->
+
+    <string name="hello">Hello World, MyAndroidAppActivity!</string>
+    <string name="Qn_1"> Was ist kein Bestandteil einer integrierten Projektkostenplanung?</string>
+    <string name="radio_1"> Lebenszykluskostenrechnung</string>
+    <string name="radio_2"> Prozesskostenrechnung</string>
+    <string name="radio_3"> Grenzplankostenrechnung</string>
+    <string name="radio_4"> Zielkostenrechnung</string>
+    <string name="next"> Nächste</string>
+    <string name="title_activity_open_games_acivitiy">Aktive Spiele</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_game_search">NewGameSearch</string>
+    <string name="title_activity_impressum">Impressum</string>
+    <string name="title_activity_main_game_screen">MainGameScreen</string>
+
+
+    <!--End of Test Quiz -->
+
+    //FEHLERMELDUNGEN
+    <string name="error_register_not_all_fields">Bitte gib alle benötigten Felder an!</string>
+    <string name="error_register_email_invalid">Bitte eine gültige Emailadresse eintragen!</string>
+    <string name="error_register_passwords_not_matching">Oops, die Passwörter stimmen nicht ueberein</string>
+    <string name="error_register_passwordlength">Passwort benötigt mehr als vier Zeichen!</string>
+    <string name="info_register_emailsent">Wir haben eine Email mit den Aktivierungsdetails an dich verschickt!</string>
+    <string name="title_activity_sub_choices_challenge">SubChoices_challenge</string>
+    <string name="error_register_keine_internet_Verbindung">oops, keine Internetverbindung, ohne Internet kann man nichts machen!</string>
+    <string name="toolbar_title_subchoices">Themenbereich auswählen</string>
+
+
+</resources>

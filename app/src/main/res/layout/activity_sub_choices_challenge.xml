@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_200"
+    android:orientation="vertical"
+    tools:context="com.demo.materialdesignnavdrawer.activities.SubChoices_challenge">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Subkategorien"
+            android:textColor="@color/grey_600"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subchoicesdebugtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:alpha="0"
+            android:text="@string/hello_world"
+            android:textColor="@color/Red_500" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonChoice1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/blue_grey_600"
+                android:lines="2"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/buttonChoice2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/blue_grey_600"
+                android:lines="2"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/buttonChoice3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/buttonChoice1"
+                android:layout_alignStart="@+id/buttonChoice1"
+                android:layout_below="@+id/buttonChoice1"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey_600"
+                android:lines="2"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/buttonChoice4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/buttonChoice2"
+                android:layout_alignStart="@+id/buttonChoice2"
+                android:layout_below="@+id/buttonChoice2"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey_600"
+                android:lines="2"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

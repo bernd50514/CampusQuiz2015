@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea">
+
+    <LinearLayout
+        android:id="@+id/activity_next_layout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_weight="0.87"
+            android:background="@color/amber_500"
+            android:gravity="center"
+            android:text="Frage zur Kontrolle absenden"
+            android:textColor="@color/text_black_100"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/activity_next_layout"
+        android:fillViewport="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_layout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_hauptkategorie"
+                    style="@android:style/Widget.Spinner.DropDown"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_weight="1"
+                    android:dropDownWidth="wrap_content"
+                    android:singleLine="true"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/input_login" />
+
+                <Spinner
+                    android:id="@+id/spinner_metaKategorie2"
+                    style="@android:style/Widget.Spinner.DropDown"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_weight="1"
+                    android:dropDownWidth="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/input_login" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/user_submit_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:height="125dp"
+                android:autoText="false"
+                android:background="@color/blue_500"
+                android:elegantTextHeight="false"
+                android:gravity="center"
+                android:hint="Bitte geben Sie hier Ihre Frage ein"
+                android:textColor="@color/white_color"
+                android:textColorHint="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/activity_prepare_test_radioBtnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/answer_submit_layout_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/home_menu_margin_8"
+                    android:paddingRight="@dimen/home_menu_margin_8"
+                    android:paddingTop="@dimen/home_menu_margin_8">
+
+                    <ImageView
+                        android:id="@+id/answer_submit_select_image_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_practice_test_normal_new" />
+
+                    <EditText
+                        android:id="@+id/answer_submit_select_text_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:hint="Deine Antwort"
+                        android:textColor="@color/practice_test_result_text"
+                        android:textColorHint="@color/text_black_100"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/answer_submit_select_image_a_"
+                        android:layout_width="150dip"
+                        android:layout_height="75dip"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_practice_test_normal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/answer_submit_layout_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/home_menu_margin_8"
+                    android:paddingRight="@dimen/home_menu_margin_8"
+                    android:paddingTop="@dimen/home_menu_margin_8">
+
+                    <ImageView
+                        android:id="@+id/answer_submit_select_image_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_practice_test_normal_new" />
+
+                    <EditText
+                        android:id="@+id/answer_submit_select_text_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:hint="Deine Antwort"
+                        android:textColor="@color/practice_test_result_text"
+                        android:textColorHint="@color/text_black_100"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/vote_submit_select_image_b_"
+                        android:layout_width="150dip"
+                        android:layout_height="75dip"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_practice_test_normal"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/answer_submit_layout_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/home_menu_margin_8"
+                    android:paddingRight="@dimen/home_menu_margin_8"
+                    android:paddingTop="@dimen/home_menu_margin_8">
+
+                    <ImageView
+                        android:id="@+id/answer_submit_select_image_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_practice_test_normal_new" />
+
+                    <EditText
+                        android:id="@+id/answer_submit_select_text_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:hint="Deine Antwort"
+                        android:textColor="@color/practice_test_result_text"
+                        android:textColorHint="@color/text_black_100"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/vote_submit_select_image_c_"
+                        android:layout_width="150dip"
+                        android:layout_height="75dip"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_practice_test_normal"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/answer_submit_layout_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/home_menu_margin_8"
+                    android:paddingRight="@dimen/home_menu_margin_8"
+                    android:paddingTop="@dimen/home_menu_margin_8">
+
+                    <ImageView
+                        android:id="@+id/answer_submit_select_image_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_practice_test_normal_new" />
+
+                    <EditText
+                        android:id="@+id/answer_submit_select_text_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:hint="Deine Antwort"
+                        android:textColor="@color/practice_test_result_text"
+                        android:textColorHint="@color/text_black_100"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/answer_submit_select_image_d_"
+                        android:layout_width="150dip"
+                        android:layout_height="75dip"
+                        android:layout_marginLeft="@dimen/home_menu_margin_8"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_practice_test_normal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include layout="@layout/toolbar" />
+
+</RelativeLayout>

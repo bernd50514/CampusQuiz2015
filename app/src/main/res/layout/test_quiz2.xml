@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_300"
+    tools:context="com.demo.materialdesignnavdrawer.activities.SubChoices_challenge">
+
+    <TextView
+        android:id="@+id/subchoicesdebugtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0"
+        android:text="@string/hello_world"
+        android:textColor="@color/Red_500" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="90dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="0.05"
+            android:text="Subkategorie"
+            android:textColor="@color/grey_600"
+            android:textIsSelectable="false"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/buttonChoice1"
+                android:layout_width="147dp"
+                android:layout_height="109dp"
+                android:layout_weight="0.41"
+                android:text="Lebenszyklus"
+                android:textColor="@android:color/white"
+                android:theme="@style/ColoredButton" />
+
+
+            <Button
+                android:id="@+id/buttonChoice2"
+                android:layout_width="147dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:text="Prozesskosten"
+                android:textColor="@android:color/white"
+                android:theme="@style/ColoredButton" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/buttonChoice3"
+                android:layout_width="147dp"
+                android:layout_height="111dp"
+                android:layout_weight="0.41"
+                android:text="Kostenrechnung"
+                android:textColor="@android:color/white"
+                android:theme="@style/ColoredButton" />
+
+
+            <Button
+                android:id="@+id/buttonChoice4"
+                android:layout_width="147dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:text="Zielkosten"
+                android:textColor="@android:color/white"
+                android:theme="@style/ColoredButton" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <include layout="@layout/toolbar" />
+
+</RelativeLayout>

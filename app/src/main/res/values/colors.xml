@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--Login and Register Color -->
+    <color name="bg_login">#ff2667ae</color>
+    <color name="bg_register">#ff2667ae</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white_color">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#eceef1</color>
+    <color name="input_register_hint">#999999</color>
+    <color name="btn_login">#ff2667ae</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff494fae</color>
+    <color name="btnRegister">#eceef1</color>
+
+
+    <!-- App Main Palette -->
+    <color name="primary">@color/blue_grey_500</color>
+    <color name="primaryDark">@color/blue_grey_700</color>
+    <color name="textPrimary">@color/text_white_text_icons_100</color>
+
+    <!-- Text -->
+    <!-- Text -->
+    <color name="text_black_100">#000000</color>
+    <color name="text_black_text_87">#DE000000</color>
+    <color name="text_black_secondary_icon_54">#8A000000</color>
+    <color name="text_black_disable_hint_26">#42000000</color>
+    <color name="text_black_divider_12">#1F000000</color>
+
+    <color name="text_white_text_icons_100">#FFFFFF</color>
+    <color name="text_white_secondary_70">#B3FFFFFF</color>
+    <color name="text_white_disabled_hint_30">#4DFFFFFF</color>
+    <color name="text_white_divider_12">#1FFFFFFF</color>
+
+    <!-- NavigationDrawer --> // here we could change the status bar color
+    <color name="navigation_drawer_background">#ffffffff</color>
+    <color name="nav_drawer_item_icon_normal">@color/grey_600</color>
+    <color name="nav_drawer_item_icon_selected">@color/amber_500</color>
+    <color name="nav_drawer_item_text_selected">@color/text_black_100</color>
+    <color name="nav_drawer_section_subheader">@color/text_black_secondary_icon_54</color>
+    <color name="nav_drawer_inset_foreground">#4000</color>
+
+    <color name="nav_drawer_row_item_unselected">@color/white</color>
+    <color name="nav_drawer_row_item_selected">@color/grey_200</color>
+    <color name="nav_drawer_row_item_pressed">@color/grey_400</color>
+
+
+    <!-- ****** Color list ******** -->
+
+    <!-- Green -->
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+
+    <!-- Grey -->
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+
+    <!-- Blue -->
+    <color name="blue_500">#2196f3</color>
+
+
+    <!-- Light Blue -->
+    <color name="light_blue_500">#03A9F4</color>
+
+    <!-- Amber -->
+    <color name="amber_500">#ffc107</color>
+    <color name="amber_600">#FFB300</color>
+    <color name="amber_700">#FFA000</color>
+
+
+    <!-- Black and White -->
+    <color name="white">#FFFFFF</color>
+    <color name="black_alpha_50">#80000000</color>
+
+
+    <!--Blue-Grey-->
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+
+
+    <!--Test for sliding tabs-->
+
+    <color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="tabsScrollColor">#004D40</color>
+
+    <!--Test for colorful buttons-->
+    <color name="fbutton_default_color">#3eadeb</color>
+    <color name="fbutton_default_shadow_color">#ff3493c8</color>
+    //Color Swatches provided by http://designmodo.github.io/Flat-UI/
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+    <!--End of Test for colorful buttons-->
+
+
+    <!--Test for Trainingspiel-->
+    <color name="main_bg">#288df5</color>
+    <color name="menu_bottom_bg">#288df5</color>
+    <color name="menu_bottom_text">#f2f8ff</color>
+    <color name="info_black_text">#585858</color>
+    <color name="info_gray_text">#979797</color>
+
+    <color name="info_layout_bg">#eaeaea</color>
+    <color name="info_honorroll_item_text">#656565</color>
+    <color name="view_manager">#e3e3e3</color>
+    <color name="black_text">#FF18191A</color>
+    <!-- 答题 -->
+
+    <color name="practice_test_content_text">#2f2f2f</color>
+    <color name="practice_test_result_text">#676566</color>
+    <color name="practice_test_result_right_text">#61bc31</color>
+    <color name="practice_test_result_wrong_text">#d53235</color>
+    <color name="practice_test_result_statistics_text">#2991f4</color>
+    <color name="practice_test_result_detail_text">#ab8b28</color>
+    <color name="my_error_question_text_black">#333333</color>
+    <color name="lucky_text_redtop">#e33b20</color>
+    <color name="lucky_text_black">#676566</color>
+    <color name="lucky_text_red">#e43b1c</color>
+    <color name="black38_text">#383838</color>
+
+
+    <color name="Light_Green_500">#8BC34A</color>
+    <color name="Red_500">#F44336</color>
+
+</resources>
