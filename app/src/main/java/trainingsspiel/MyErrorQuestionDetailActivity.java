@@ -15,9 +15,9 @@ import com.demo.materialdesignnavdrawer.R;
 import trainingsspiel.util.ConstantUtil;
 
 /**
- * ´íÌâÏêÇé
+ * 
  *
- * @author ½ðÖÓ»À
+ * @author Jiahao Liang 
  */
 public class MyErrorQuestionDetailActivity extends Activity {
 
