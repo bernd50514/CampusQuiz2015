@@ -9,7 +9,8 @@ Realized Functions:
 
 
 <p>
-APK prototype can be found direcktly under this branch with name "CampusQuiz_preFinalv2.apk" :) 
+APK prototype can be found direcktly under this branch with name "CampusQuiz_preFinalv2.apk" 
+PS: Due to unavilable access to webservice in Azuri Server, only limited GUI functions can be used.... 
 </P>
 
 
