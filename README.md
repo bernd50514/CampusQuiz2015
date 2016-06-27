@@ -1,11 +1,12 @@
 Android Project-CampusQUiz 2015
-<p>
+
+
 Realized Functions:
  - User Registration, Login and Logout
  - Material Design Navigation Drawer
  - Single Player Module
  - Multi Players Module
- </p>
+
 
 <p>
 APK prototype can be found direcktly under this branch with name "CampusQuiz_preFinalv2.apk" :) 
